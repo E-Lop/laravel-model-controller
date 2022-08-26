@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 30px;
+}
+
+.movie-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.movie-card {
+    width: calc(100% / 3 - 20px);
+    margin: 5px;
+    /* todo */
+    background-color: aqua;
+    border: 1px solid red;
+    span {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+}
+.movie-card:hover {
+    background-color: orangered;
+    color: white;
+    transform: scale(1.1);
+}
